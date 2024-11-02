@@ -26,8 +26,7 @@ for i in range(12):
 	clk.penup()
 	clk.forward(20)
 	clk.write(str(val), align="center",
-			font=("Arial",
-					12, "normal"))
+			font=("Arial", 12, "normal"))
 	
 clk.setpos(2, -112)
 clk.pendown()
@@ -44,7 +43,6 @@ clk.pendown()
 clk.penup()
 clk.setpos(-30, -170)
 clk.pendown()
-clk.write('Zhanyue', font=("Arial", 14,
-							"normal"))
+clk.write('Zhanyue', font=("Arial", 14, "normal"))
 clk.hideturtle()
 turtle.done()
